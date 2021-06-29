@@ -1,0 +1,189 @@
+.bodyPHONE {
+    display:none;
+}
+*{
+    margin: 0;
+}
+@media only screen and (max-width: 600px){
+
+    .bodyPHONE {
+        display:block;
+    }
+
+    .bodyPHONE{
+        background: linear-gradient(#020503, #273a2a, #18281b, #18281e);
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: 'Varela Round', sans-serif;
+    }
+
+    .imglogonav {
+        width: 25.867%;
+    height: 3.325%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3.5%;
+    padding-bottom: 2.5%;
+    
+    }
+    
+
+    .imgheadertwo {
+    width: 92%;
+    height: auto;
+    margin-right:4%;
+    margin-left:4%;
+    margin-top:2.45%;
+    border-radius: 10px;
+    box-shadow:0px 10px 15px rgba(26, 25, 25, 0.719);
+    transform: scale(1);
+	transition: .5s ease-in;
+    }
+
+    .imgheadertwo:hover {
+    transform: scale(1.04)
+    }
+
+
+
+
+    .imgButtonColl {
+        width: 100%; 
+        height: 100%;
+    }
+
+
+    .buttonColl {
+        background-image: linear-gradient(180deg, #1f2b22, #2f3d31);
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgba(163, 164, 168, 0.411);
+        border-radius: 11px;
+        box-shadow:0px 10px 15px rgba(25, 26, 25, 0.719);
+        transition: border-width 0.5s;
+        width: 16.2%;
+        height: 16.2%;
+    }
+
+    .buttonColl:hover {
+        border-width: 2px;
+    }
+
+
+    .buttonCollOne {
+        margin-right: 0.833125%;
+        margin-left: 4%;
+    }
+
+    .buttonCollTwo {
+        margin-right: 0.833125%;
+        margin-left: 0.833125%;
+    }
+
+    .buttonCollThree {
+        margin-right: 4%;
+        margin-left: 0.833125%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .collectionText {
+    font-size: 17px;
+    color:whitesmoke;
+    margin-top: 2.5%;
+    margin-left: 4%;
+    margin-bottom: 2.5%;
+}
+
+.img1{
+    width:20.25%;
+    height:27%;
+    margin-left: 4%;
+    margin-right:1.5%;
+
+}
+
+.img2 {
+    width:20.25%;
+    height: 27%;
+    margin-right:1.5%;
+    margin-left:1.5%
+}
+
+.img4 {
+    width:20.25%;
+    height:27%;
+    margin-right:1.5%;
+    margin-left: 1%;
+}
+
+.imgsectionex:hover {
+    transform: scale(1.07);
+    border-width: 3px;
+    border-color: rgba(86, 77, 109, 0.548);
+}
+
+.imgsectionex {
+    border-radius: 10px;
+    box-shadow:0px 10px 15px rgba(26, 25, 25, 0.719);
+    transform: scale(1);
+	transition: .5s;
+}
+
+.container {
+    margin-bottom: 10px;
+}
+
+.contact {
+    padding:5em;
+}  
+
+
+                }
+
+
+
+    @media only screen and (max-width: 382px) {
+        .imgButtonCollStarWars {
+            display: none;
+        }
+
+        .buttonColl {
+            width: 20.5%;
+        }
+
+        
+    }
+
+     @media only screen and (max-width: 249px) {
+         .bodyPHONE {
+             display: none;
+         }
+     }
+
+
+
+ 
+
+
+
+
+
